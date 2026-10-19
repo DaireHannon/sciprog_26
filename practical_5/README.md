@@ -12,16 +12,16 @@ Computes arctanh(x) over the interval [-0.9,0.9] in steps of 0.01 using two meth
 
 ### Method 1 : Maclaurin Series
 An approximate method given by
-$$
+$
 arctanh(x) = \sum_0^\infty \frac{x^{2n+1}}{2n+1}
-$$       
+$       
 This requires a user inputted value (delta) to decide when to stop adding terms and truncate the sum
 
 ### Method 2 : Natural logs
 This exact value is given by
-$$
+$
 arctanh(x) = \frac{1}{2} \left( \ln(1+x) - \ln(1-x)  \right)
-$$
+$
 
 
 The values are computed for both and they are compared to each other
